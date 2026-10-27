@@ -12,7 +12,6 @@ use Foundations\Request\Request;
 class HomeController extends Controller {
     public function index() {
         $users = User::with("roles")->get();
-        dd($users);
         view('index');
     }
 

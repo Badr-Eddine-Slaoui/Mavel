@@ -74,7 +74,7 @@ class Mavel {
 
     public function run(): void {
         switch ($this->command) {
-            case 'help':{
+            case 'help':{ 
                 $this->displayHelpMenue();
                 break;
             }
